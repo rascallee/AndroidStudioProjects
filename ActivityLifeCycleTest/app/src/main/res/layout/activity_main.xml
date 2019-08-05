@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -16,4 +17,24 @@
         android:layout_height="wrap_content"
         android:text="Start DialogActivity" />
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/start_normal_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start NormalActivity" />
+
+    <Button
+        android:id="@+id/start_dialog_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start DialogActivity" />
+
+>>>>>>> fc39a20ba4672ed61e92361009850fbac0de10f0
 </LinearLayout>

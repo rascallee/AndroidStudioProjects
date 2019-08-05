@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.example.broadcastbestpractice;
 
 import android.app.Activity;
@@ -27,3 +28,34 @@ public class ActivityCollector {
     }
 
 }
+=======
+package com.example.broadcastbestpractice;
+
+import android.app.Activity;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ActivityCollector {
+
+    public static List<Activity> activities = new ArrayList<>();
+
+    public static void addActivity(Activity activity) {
+        activities.add(activity);
+    }
+
+    public static void removeActivity(Activity activity) {
+        activities.remove(activity);
+    }
+
+    public static void finishAll() {
+        for (Activity activity : activities) {
+            if (!activity.isFinishing()) {
+                activity.finish();
+            }
+        }
+        activities.clear();
+    }
+
+}
+>>>>>>> fc39a20ba4672ed61e92361009850fbac0de10f0

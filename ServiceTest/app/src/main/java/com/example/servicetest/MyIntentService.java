@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.example.servicetest;
 
 import android.app.IntentService;
@@ -23,3 +24,30 @@ public class MyIntentService extends IntentService {
     }
 
 }
+=======
+package com.example.servicetest;
+
+import android.app.IntentService;
+import android.content.Intent;
+import android.util.Log;
+
+public class MyIntentService extends IntentService {
+
+    public MyIntentService() {
+        super("MyIntentService"); // 调用父类的有参构造函数
+    }
+
+    @Override
+    protected void onHandleIntent(Intent intent) {
+        // 打印当前线程的id
+        Log.d("MyIntentService", "Thread id is " + Thread.currentThread(). getId());
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d("MyIntentService", "onDestroy executed");
+    }
+
+}
+>>>>>>> fc39a20ba4672ed61e92361009850fbac0de10f0

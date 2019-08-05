@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <paths xmlns:android="http://schemas.android.com/apk/res/android">
 
     <root-path path="" name="my_images" />
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <root-path path="" name="my_images" />
+
+>>>>>>> fc39a20ba4672ed61e92361009850fbac0de10f0
 </paths>

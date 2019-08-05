@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/news_title"
@@ -9,4 +10,17 @@
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:paddingTop="15dp"
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:textSize="18sp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp"
+>>>>>>> fc39a20ba4672ed61e92361009850fbac0de10f0
     android:paddingBottom="15dp" />

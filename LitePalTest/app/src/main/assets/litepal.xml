@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <litepal>
     <dbname value="BookStore" ></dbname>
@@ -8,4 +9,16 @@
         <mapping class="com.example.litepaltest.Book"></mapping>
 
     </list>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="BookStore" ></dbname>
+
+    <version value="1" ></version>
+
+    <list>
+        <mapping class="com.example.litepaltest.Book"></mapping>
+
+    </list>
+>>>>>>> fc39a20ba4672ed61e92361009850fbac0de10f0
 </litepal>
